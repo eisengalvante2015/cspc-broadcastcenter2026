@@ -596,7 +596,7 @@
         const appId = typeof __app_id !== 'undefined' ? __app_id : 'cspc-broadcast-center';
         
         // Demo Fallback configuration for offline and local sandbox environments
-      const fallbackConfig = {
+   const fallbackConfig = {
   apiKey: "AIzaSyAbGW0juUw8-V0rzD1IdI8wF8CcyRLlK2I",
   authDomain: "cspc-broadcast.firebaseapp.com",
   projectId: "cspc-broadcast",
@@ -605,7 +605,6 @@
   appId: "1:787038437242:web:0c8b81a1556002199860c3",
   measurementId: "G-VYGSWRJYXN"
 };
-
         const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : fallbackConfig;
 
         let db, auth;
